@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaynoel</title>
+    <link rel="stylesheet" href="style/opmaak.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="header-box1">
+          <h1>Zaynoel Basnoe</h1>
+          <div id="mymenu" class="menu">
+            <a href="aboutme.html" class="active">About me</a>
+            <a href="index.html" class="inactive">Home</a>
+            <a href="school.html" class="inactive">School</a>
+            <a href="madewith.html" class="inactive">Made with</a>
+            <a href="credits.html" class="inactive">Credits</a>
+            <a href="ienc.html" class="inactive">I&C</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          <div id="menubar">
+            <a href="index.html" class="inactive">Home</a>
+            <a href="aboutme.html" class="active">About me</a>
+            <a href="school.html" class="inactive">School</a>
+            <a href="madewith.html" class="inactive">Made with</a>
+            <a href="credits.html" class="inactive">Credits</a>
+            <a href="ienc.html" class="inactive">I&C</a>
+          </div>
+        </div>
+      </div>
+      <div id="left"></div>
+      <div id="right"></div>
+      <div id="midleft">
+        <div id="midleft-box1">
+          <h2>Short story</h2>
+          <p class="a">
+            I was born on the 15th of September in 2002. My birth place is Amsterdam and
+            I live now in the Netherlands. I go to school five times a week from 8:30
+            to 15:30 every day. When I'm at home I am mostly on my laptop or playing
+            games. When I was in elementary school I used to play the Wii a lot.
+            My favourite game was 'Mario Galaxy'. I still play sometimes but not as
+            much as back then.
+          </p>
+          <div id="mario1">
+            <img id="mario" src="media/mario.png" alt="Image not found">
+          </div>
+          <p class="a">
+            Another game I really like is 'Horizon Zero Dawn'. This is an
+            exclusive game for ps4. That means you can only play it on a ps4.
+            This game I bought after my first game: 'Call of Duty Black ops 3'.
+            I was not so good at it which I'm not going to lie about XD.
+          </p>
+          <div id="horizon1">
+            <img id="horizon" src="media/horizon.gif" alt="Gif not found">
+          </div>
+        </div>
+        <div id="midleft-box2">
+          <h2>Elementary school</h2>
+          <p class="b">
+            Besides the gaming, elementary school was pretty fun. I learned a lot.
+            At the end my old school gave me permission to do pre-university
+            education where I'm at now. The fourth year to be exact. The name of my
+            old school is 'Olympus'. You can go to their webpage if you click
+            <span>
+              <a href="https://www.obsolympus.nl/">here.</a>
+            </span>
+          </p>
+        </div>
+      </div>
+      <div id="midright">
+        <div id="midright-box1">
+          <h2>Contact information:</h2>
+          <p class="b">
+            Gmail:
+            <a href="mailto:zaynoel.basnoe@hetcml.nl?subject=Feedback:website">zaynoel.basnoe@hetcml.nl</a>
+          </p>
+        </div>
+        <div id="midright-box2">
+          <h2>Link to previous version website:</h2>
+          <p class="b">
+            <a href="http://joppekoers.nl/Zaynoel/">joppekoers.nl/Zaynoel/</a>
+          </p>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="footer-box1">
+          <p class="footer">© 2018 Zaynoel Banoe</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mymenu");
+        if (x.className === "menu") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "menu";
+        }
+      }
+    </script>
+  </body>
+</html>

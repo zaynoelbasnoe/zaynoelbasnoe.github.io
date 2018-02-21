@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaynoel</title>
+    <link rel="stylesheet" href="style/opmaak.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="header-box1">
+          <h1>Zaynoel Basnoe</h1>
+          <div id="mymenu" class="menu">
+            <a href="ienc.html" class="active">I&C</a>
+            <a href="index.html" class="inactive">Home</a>
+            <a href="aboutme.html" class="inactive">About me</a>
+            <a href="school.html" class="inactive">School</a>
+            <a href="madewith.html" class="inactive">Made with</a>
+            <a href="credits.html" class="inactive">Credits</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          <div id="menubar">
+            <a href="index.html" class="inactive">Home</a>
+            <a href="aboutme.html" class="inactive">About me</a>
+            <a href="school.html" class="inactive">School</a>
+            <a href="madewith.html" class="inactive">Made with</a>
+            <a href="credits.html" class="inactive">Credits</a>
+            <a href="ienc.html" class="active">I&C</a>
+          </div>
+        </div>
+      </div>
+      <div id="left"></div>
+      <div id="right"></div>
+      <div id="midleft">
+        <div id="midleft-box1">
+          <h2>Lijst</h2>
+          <ul class="b">
+            <li> lijst in lijst:
+               <ol class="a">
+                 <li>wut</li>
+                 <li>dab</li>
+                 <li>wut</li>
+               </ol>
+             </li>
+	           <li>lol</li>
+	           <li>noob</li>
+	           <li>qwerty</li>
+	           <li>html</li>
+          </ul>
+        </div>
+        <div id="midleft-box2">
+          <h2>Tabel</h2>
+          <div id="tabel1">
+            <table id="tabel">
+              <tr>
+                <th colspan="3">Mijn tabel</th>
+              </tr>
+              <tr>
+                <th>Naam:</th>
+                <th>Achternaam:</th>
+                <th>Lievelingskleur:</th>
+              </tr>
+              <tr>
+                <td>Cihan</td>
+                <td>Aksoy</td>
+                <td>blauw</td>
+              </tr>
+              <tr>
+                <td>Mohammed</td>
+                <td>el Kahtaoui</td>
+                <td>blauw</td>
+              </tr>
+              <tr>
+                <td>Ines</td>
+                <td>Ellounissi</td>
+                <td>groen</td>
+              </tr>
+              <tr>
+                <td>Karim</td>
+                <td>el Kahtaoui</td>
+                <td>limoengroen</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="midright">
+        <div id="midright-box1">
+          <h2>Contact information:</h2>
+          <p class="b">
+            Gmail:
+            <a href="mailto:zaynoel.basnoe@hetcml.nl?subject=Feedback:website">zaynoel.basnoe@hetcml.nl</a>
+          </p>
+        </div>
+        <div id="midright-box2">
+          <h2>Link to previous version website:</h2>
+          <p class="b">
+            <a href="http://joppekoers.nl/Zaynoel/">joppekoers.nl/Zaynoel/</a>
+          </p>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="footer-box1">
+          <p class="footer">© 2018 Zaynoel Banoe</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mymenu");
+        if (x.className === "menu") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "menu";
+        }
+      }
+    </script>
+  </body>
+</html>

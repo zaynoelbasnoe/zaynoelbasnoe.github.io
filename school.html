@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaynoel</title>
+    <link rel="stylesheet" href="style/opmaak.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="header-box1">
+          <h1>Zaynoel Basnoe</h1>
+          <div id="mymenu" class="menu">
+            <a href="school.html" class="active">School</a>
+            <a href="index.html" class="inactive">Home</a>
+            <a href="aboutme.html" class="inactive">About me</a>
+            <a href="madewith.html" class="inactive">Made with</a>
+            <a href="credits.html" class="inactive">Credits</a>
+            <a href="ienc.html" class="inactive">I&C</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+          </div>
+          <div id="menubar">
+            <a href="index.html" class="inactive">Home</a>
+            <a href="aboutme.html" class="inactive">About me</a>
+            <a href="school.html" class="active">School</a>
+            <a href="madewith.html" class="inactive">Made with</a>
+            <a href="credits.html" class="inactive">Credits</a>
+            <a href="ienc.html" class="inactive">I&C</a>
+          </div>
+        </div>
+      </div>
+      <div id="left"></div>
+      <div id="right"></div>
+      <div id="midleft">
+        <div id="midleft-box1">
+          <h2>Metis</h2>
+          <p class="a">
+            Currently I am in the 4th year of my pre-university education.
+            The name of my school is Metis. My school is a Montessori school.
+            A Montessori school is a school where you have a lot of independency.
+            You'll have to plan
+            your own homework. If you can't make schedules and hold on to it
+            this is not a school for you. But everything should be fine,
+            because you will learn how to plan and schedule in the first two grades.
+            You can go to their webpage if you click
+            <span>
+              <a href="https://hetmml.nl/">here.</a>
+            </span>
+          </p>
+          <div id="maps1">
+            <iframe id="maps" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJbzUhH3EJxkcRayfLK2HCmEY&key=AIzaSyCFap0bggI6EG83JpTsXbacH-8jEuli4Zw" allowfullscreen></iframe>
+          </div>
+          <div id="metis1">
+            <img id="metis" src="media/metis.png" alt="Image not found">
+          </div>
+        </div>
+      </div>
+      <div id="midright">
+        <div id="midright-box1">
+          <h2>Contact information:</h2>
+          <p class="b">
+            Gmail:
+            <a href="mailto:zaynoel.basnoe@hetcml.nl?subject=Feedback:website">zaynoel.basnoe@hetcml.nl</a>
+          </p>
+        </div>
+        <div id="midright-box2">
+          <h2>Link to previous version website:</h2>
+          <p class="b">
+            <a href="http://joppekoers.nl/Zaynoel/">joppekoers.nl/Zaynoel/</a>
+          </p>
+        </div>
+      </div>
+      <div id="footer">
+        <div id="footer-box1">
+          <p class="footer">© 2018 Zaynoel Banoe</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("mymenu");
+        if (x.className === "menu") {
+            x.className += " responsive";
+        }
+        else {
+            x.className = "menu";
+        }
+      }
+    </script>
+  </body>
+</html>
